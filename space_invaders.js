@@ -19,9 +19,9 @@ addLevel(["!^^^^^^^^^^     &",
          ], {
   width: 30,
   height: 22,
-  "^" : () => [sprite("space-invader"), scale(0.7),],
-  "!" : () => [sprite("wall"), "left-wall",],
-  "&" : () => [sprite("wall"), "right-wall",],
+  "^" : () => [sprite("space-invader"), area(), scale(0.7),],
+  "!" : () => [sprite("wall"), area(), "left-wall",],
+  "&" : () => [sprite("wall"), area(), "right-wall",],
          })
 
 // add a character to screen
