@@ -19,7 +19,7 @@ addLevel(["!^^^^^^^^^^     &",
          ], {
   width: 30,
   height: 22,
-  "^" : () => [sprite("space-invader"), area(), scale(0.7),],
+  "^" : () => [sprite("space-invader"), area(), scale(0.7),"space-invader",],
   "!" : () => [sprite("wall"), area(), "left-wall",],
   "&" : () => [sprite("wall"), area(), "right-wall",],
          })
